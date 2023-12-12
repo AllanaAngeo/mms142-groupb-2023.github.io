@@ -43,5 +43,17 @@ hSub {
 	font-family: TT Interfaces;
 	font-style: italic;}
 
+.menupanel {
+	position: relative;
+	background-image: url("assets/menupanelBG.png");
+	width: 170px;
+	height: 570px;
+	padding: 15px;}
+
+BtnIntro, BtnDefi, BtnApp, BtnDisrupt, BtnFuture, BtnConclusion, BtnCredits {
+	position: absolute;
+	color: white;
+	font-family: Lastica;}
+
 
 
