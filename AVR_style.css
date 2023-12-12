@@ -50,10 +50,31 @@ hSub {
 	height: 570px;
 	padding: 15px;}
 
-BtnIntro, BtnDefi, BtnApp, BtnDisrupt, BtnFuture, BtnConclusion, BtnCredits {
+BtnIntro, BtnDefi, BtnApp, BtnDisrupt, BtnFuture, BtnConclusion, BtnCredit {
 	position: absolute;
 	color: white;
 	font-family: Lastica;}
+
+BtnIntro {
+	top: 20px;}
+
+BtnDefi {
+	top: 60px;}
+
+BtnApp {
+	top: 100px;}
+
+BtnDisrupt {
+	top: 140px;}
+
+BtnFuture {
+	top: 180px;}
+
+BtnConclusion {
+	top: 220px;}
+
+BtnCredit {
+	top: 260px;}
 
 
 
