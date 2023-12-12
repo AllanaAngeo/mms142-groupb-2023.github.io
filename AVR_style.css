@@ -1,0 +1,47 @@
+@font-face {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
+@font-face {font-family: "Lastica"; src: url("assets/fonts/FontsFree-Net-Lastica.ttf");}
+
+body {
+	background-color: #FCF3FF;
+	font-family: "TT Interphases Pro";}
+
+header {
+	background-image: url("assets/HeaderBG.gif");
+	height: 300px;
+	position: relative;
+	padding-left: 50px;}
+
+mms142, activitygroup, hTitle, hSub, #circledesign {;
+	color: white;
+	position: absolute;
+	white-space: nowrap;}
+
+#circledesign {
+	top: 30px;}
+
+mms142 {
+	font-size: 12px;
+	top: 50px;
+	left: 62px;
+	font-family: Lastica;}
+
+activitygroup {
+	font-size: 12px;
+	top: 50px;
+	left: 125px;
+	font-family: Lastica;}
+
+hTitle {
+	font-size: 56px;
+	top: 100px;
+	font-weight: bold;
+	font-family: Lastica;}
+
+hSub {
+	top: 240px;
+	font-size: 26px;
+	font-family: TT Interfaces;
+	font-style: italic;}
+
+
+
