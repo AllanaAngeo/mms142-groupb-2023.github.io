@@ -49,39 +49,34 @@ hSub {
 	background-image: url("assets/menupanelBG.png");
 	background-size: 100% 100%;
 	width: 200px;
-	height: 600px;
+	height: 1000px;
 	padding: 15px;}
 
-#BtnIntro, #BtnDefi, #BtnApp, #BtnDisrupt, #BtnFuture, #BtnConclusion, #BtnCredit {
-	position: absolute;
-	color: white;
-	text-decoration: none;
+#BtnTech, #BtnAVR, #BtnCurr, #BtnFuture, #BtnCon, #BtnCredits {
+	position: sticky;
+	top: 0;
+	color:white;
 	font-family: Lastica;
-	font-size: 15px;}
+	font-size: 15px;
+	text-decoration: none;}
 
-#BtnIntro:hover, #BtnDefi:hover, #BtnApp:hover, #BtnDisrupt:hover, #BtnFuture:hover, #BtnConclusion:hover, #BtnCredit:hover {
+#BtnTech:hover, #BtnAVR:hover, #BtnCurr:hover, #BtnFuture:hover, #BtnCon:hover, #BtnCredits:hover {
 	font-weight: bold;}
 
-#BtnIntro {
+#BtnTech {
 	top: 20px;}
 
-#BtnDefi {
-	top: 60px;}
+#BtnAVR {
+	top: 75px;}
 
-#BtnApp {
-	top: 100px;}
-
-#BtnDisrupt {
-	top: 140px;}
+#BtnCurr {
+	top: 110px;}
 
 #BtnFuture {
-	top: 180px;}
+	top: 165px;}
 
-#BtnConclusion {
+#BtnCon {
 	top: 220px;}
 
-#BtnCredit {
-	top: 260px;}
-
-
-
+#BtnCredits {
+	top: 255px;}
