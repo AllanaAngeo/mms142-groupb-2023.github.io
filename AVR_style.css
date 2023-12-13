@@ -2,8 +2,9 @@
 @font-face {font-family: "Lastica"; src: url("assets/fonts/FontsFree-Net-Lastica.ttf");}
 
 body {
-	background-color: #FCF3FF;
-	font-family: "TT Interphases Pro";}
+	background-image: url("assets/webpageBG.png");
+	background-position: center;
+	background-attachment: fixed;}
 
 header {
 	background-image: url("assets/HeaderBG.gif");
@@ -46,34 +47,40 @@ hSub {
 .menupanel {
 	position: relative;
 	background-image: url("assets/menupanelBG.png");
-	width: 170px;
-	height: 570px;
+	background-size: 100% 100%;
+	width: 200px;
+	height: 600px;
 	padding: 15px;}
 
-BtnIntro, BtnDefi, BtnApp, BtnDisrupt, BtnFuture, BtnConclusion, BtnCredit {
+#BtnIntro, #BtnDefi, #BtnApp, #BtnDisrupt, #BtnFuture, #BtnConclusion, #BtnCredit {
 	position: absolute;
 	color: white;
-	font-family: Lastica;}
+	text-decoration: none;
+	font-family: Lastica;
+	font-size: 15px;}
 
-BtnIntro {
+#BtnIntro:hover, #BtnDefi:hover, #BtnApp:hover, #BtnDisrupt:hover, #BtnFuture:hover, #BtnConclusion:hover, #BtnCredit:hover {
+	font-weight: bold;}
+
+#BtnIntro {
 	top: 20px;}
 
-BtnDefi {
+#BtnDefi {
 	top: 60px;}
 
-BtnApp {
+#BtnApp {
 	top: 100px;}
 
-BtnDisrupt {
+#BtnDisrupt {
 	top: 140px;}
 
-BtnFuture {
+#BtnFuture {
 	top: 180px;}
 
-BtnConclusion {
+#BtnConclusion {
 	top: 220px;}
 
-BtnCredit {
+#BtnCredit {
 	top: 260px;}
 
 
