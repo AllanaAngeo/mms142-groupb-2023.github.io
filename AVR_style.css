@@ -1,3 +1,4 @@
+@ -1,82 +1,139 @@
 @font-face {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 @font-face {font-family: "Lastica"; src: url("assets/fonts/FontsFree-Net-Lastica.ttf");}
 
@@ -5,6 +6,25 @@ body {
 	background-image: url("assets/webpageBG.png");
 	background-position: center;
 	background-attachment: fixed;}
+	background-attachment: fixed;
+	background-image: url("assets/webpageBG.png");}
+
+.main {
+	margin: auto;
+}
+
+.content{
+	margin-top: 30px;
+	margin-left: 180px;
+	margin-right: 180px;
+	background-color: white;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 30px;
+	border-radius: 5px;
+}
+
+h1 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 
 header {
 	background-image: url("assets/HeaderBG.gif");
@@ -13,6 +33,12 @@ header {
 	padding-left: 50px;}
 
 mms142, activitygroup, hTitle, hSub, #circledesign {;
+p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+mms142, activitygroup, hTitle, hSub, #circledesign {
 	color: white;
 	position: absolute;
 	white-space: nowrap;}
@@ -47,10 +73,53 @@ hSub {
 .menupanel {
 	position: relative;
 	background-image: url("assets/menupanelBG.png");
+	position: fixed;
 	background-size: 100% 100%;
 	width: 200px;
-	height: 600px;
+	height: 1000px;
 	padding: 15px;}
+
+#BtnTech, #BtnAVR, #BtnCurr, #BtnFuture, #BtnCon, #BtnCredits {
+	position: sticky;
+	top: 0;
+	color:white;
+	width: 214px;
+	height: 525px;
+	padding: 15px;
+	float: left;
+	background-color:#221C3A;
+	border-radius: 10px;
+	margin-left: 190px;
+}
+
+.bod1 {
+	overflow: hidden;
+	margin-left: 450px;}
+
+.btnCont {
+	padding: 15px 40px;
+	
+	width: 215px;
+	margin-bottom: 10px;
+	background-color:#221C3A;
+	border: none;
+	transition-duration: 0.3s;
+	color: white;
+	font-family: Lastica;
+	font-size: 15px;
+	text-decoration: none;}
+}
+
+.btn {
+	text-decoration: none;
+	font-weight:bold;
+}
+
+#BtnTech:hover, #BtnAVR:hover, #BtnCurr:hover, #BtnFuture:hover, #BtnCon:hover, #BtnCredits:hover {
+.btn:hover {
+	color:#221C3A;
+	background-color:white;
+}
 
 #BtnIntro, #BtnDefi, #BtnApp, #BtnDisrupt, #BtnFuture, #BtnConclusion, #BtnCredit {
 	position: absolute;
@@ -62,26 +131,37 @@ hSub {
 #BtnIntro:hover, #BtnDefi:hover, #BtnApp:hover, #BtnDisrupt:hover, #BtnFuture:hover, #BtnConclusion:hover, #BtnCredit:hover {
 	font-weight: bold;}
 
+#BtnTech {
 #BtnIntro {
 	top: 20px;}
 
+#BtnAVR {
+	top: 75px;}
 #BtnDefi {
 	top: 60px;}
 
 #BtnApp {
 	top: 100px;}
 
+#BtnCurr {
+	top: 110px;}
 #BtnDisrupt {
 	top: 140px;}
 
 #BtnFuture {
+	top: 165px;}
 	top: 180px;}
 
+#BtnCon {
 #BtnConclusion {
 	top: 220px;}
 
+#BtnCredits {
+	top: 255px;}
 #BtnCredit {
 	top: 260px;}
+
+
 
 
 
