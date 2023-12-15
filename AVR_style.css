@@ -103,7 +103,7 @@ hSub {
 	border-radius: 5px;
 }
 
-h1 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
+h1, h3 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 
 p {
 	font-family: TT Interfaces;
