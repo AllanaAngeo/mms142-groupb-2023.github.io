@@ -20,7 +20,8 @@ header {
 	height: 300px;
 	position: relative;
 	z-index: 2;
-	padding-left: 50px;}
+	padding-left: 50px;
+	overflow: hidden;}
 
 mms142, activitygroup, hTitle, hSub, #circledesign {
 	color: white;
@@ -97,13 +98,13 @@ hSub {
 	margin-bottom: 30px;
 	background-color: white;
 	padding-left: 80px;
-	padding-right: 80px;
+	padding-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	border-radius: 5px;
 }
 
-h1 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
+h1, h3 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 
 p {
 	font-family: TT Interfaces;
@@ -111,6 +112,6 @@ p {
 	line-height: 1.5;
 }
 
-#avrProtoUk {
+img {
 	height: 100%;
 	width: 100%;}
