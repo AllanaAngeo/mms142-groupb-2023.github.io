@@ -1,3 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline:0;
+	font-size: 100%
+	vertical-align: baseline;
+	background: transparent;}
+
 @font-face {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 @font-face {font-family: "Lastica"; src: url("assets/fonts/FontsFree-Net-Lastica.ttf");}
 
@@ -10,9 +19,10 @@ header {
 	background-image: url("assets/HeaderBG.gif");
 	height: 300px;
 	position: relative;
+	z-index: 2;
 	padding-left: 50px;}
 
-mms142, activitygroup, hTitle, hSub, #circledesign {;
+mms142, activitygroup, hTitle, hSub, #circledesign {
 	color: white;
 	position: absolute;
 	white-space: nowrap;}
@@ -44,39 +54,63 @@ hSub {
 	font-family: TT Interfaces;
 	font-style: italic;}
 
-.menupanel {
-	position: relative;
-	background-image: url("assets/menupanelBG.png");
-	background-size: 100% 100%;
-	width: 200px;
-	height: 1000px;
-	padding: 15px;}
+.main {
+	display: flex;
+	justify-content: space-between;}
 
-#BtnTech, #BtnAVR, #BtnCurr, #BtnFuture, #BtnCon, #BtnCredits {
+.menupanel {
 	position: sticky;
 	top: 0;
-	color:white;
+	width: 215px;
+	height: 100%;
+	padding: 15px;
+	background-color:#221C3A;
+	margin-left: 10px;
+	margin-top:0;}
+
+.btnCont {
+	padding: 15px 40px;
+	width: 215px;
+	margin-bottom: 10px;
+	background-color:#221C3A;
+	border: none;
+	transition-duration: 0.3s;
+	color: white;
 	font-family: Lastica;
 	font-size: 15px;
 	text-decoration: none;}
 
-#BtnTech:hover, #BtnAVR:hover, #BtnCurr:hover, #BtnFuture:hover, #BtnCon:hover, #BtnCredits:hover {
-	font-weight: bold;}
+.btn {
+	text-decoration: none;
+	font-weight:bold;}
 
-#BtnTech {
-	top: 20px;}
+.btn:hover {
+	color:#221C3A;
+	background-color:white;
+}
 
-#BtnAVR {
-	top: 75px;}
+.content{
+	width: 65%;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	background-color: white;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
 
-#BtnCurr {
-	top: 110px;}
+h1 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
 
-#BtnFuture {
-	top: 165px;}
+p {
+	font-family: TT Interfaces;
+	font-size: 14px;
+	line-height: 1.5;
+}
 
-#BtnCon {
-	top: 220px;}
-
-#BtnCredits {
-	top: 255px;}
+#avrProtoUk {
+	height: 100%;
+	width: 100%;}
