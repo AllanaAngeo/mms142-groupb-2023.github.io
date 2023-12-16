@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline:0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+@font-face {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
+@font-face {font-family: "Lastica"; src: url("assets/fonts/FontsFree-Net-Lastica.ttf");}
+
+body {
+	background-image: url("assets/webpageBG.png");
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	height: 100vh;
+}
+
+header {
+	position: relative;
+}
+
+mms142, activitygroup, span, hSub, #circledesign {
+	color: white;
+	position: absolute;
+	white-space: nowrap;}
+
+header img {
+	max-width: 100%;
+	height: 300px;
+	display: block;
+	width: 100%;
+}
+
+#circledesign {
+    color: white;
+    position: absolute;
+    display: flex;
+    flex: 1;
+    top: -93px;
+    left: -75px;
+    transform: scale(0.17);
+}
+
+mms142 {
+	font-size: 12px;
+	top: 50px;
+	left: 62px;
+	font-family: Lastica;
+}
+
+activitygroup {
+	font-size: 12px;
+	top: 50px;
+	left: 125px;
+	font-family: Lastica;
+}
+
+span {
+	font-size: 56px;
+	top: 100px;
+	font-weight: bold;
+	font-family: Lastica;
+	padding-left: 50px;
+}
+
+
+hSub {
+	top: 240px;
+	font-size: 26px;
+	font-family: TT Interfaces;
+	font-style: italic;
+	padding-left: 50px;
+}
+
+main {
+	display:flex;
+	flex: 1;
+}
+
+.headertext p {
+	font-family: Lastica;
+	color: white;
+}
+
+.menupanel {
+	top: 0;
+	width: 200px;
+	height: 100%;
+	padding: 15px;
+	background-color:#221C3A;
+}
+
+.btnCont {
+	padding: 15px 40px;
+	width: 215px;
+	margin-bottom: 10px;
+	background-color:#221C3A;
+	border: none;
+	transition-duration: 0.3s;
+	color: white;
+	font-family: Lastica;
+	font-size: 15px;
+	text-decoration: none;}
+
+.btn {
+	text-decoration: none;
+	font-weight:bold;}
+
+.btn:hover {
+	color:#221C3A;
+	background-color:white;
+}
+
+.content{
+	width: 65%;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	background-color: white;
+	padding-left: 80px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	flex: 1;
+}
+
+h1, h3 {font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf"); }
+
+p {
+	font-family: TT Interfaces;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+ul {
+  margin: 1em;
+  font-size: 14px;
+  	line-height: 1.5;
+  font-family: "TT Interfaces"; src: url("assets/fonts/ttinterfaces/TTInterfaces-Regular.ttf");
+}
+
+.subheadings { 
+font-size: 23px;
+}
+
+.TitleDTleft {
+	width:40vw;
+    height: 50px;
+	float: left;
+	margin-left: -10px;
+	width: 100%;
+	height: auto;
+}
+.TitleDTRight {
+	width: 100%;
+    height: auto;
+	float: right;
+	margin-left: 5%;
+	margin-top: 7.0%;
+}
+
+.TitleTextDT {
+	font-size: 13px;
+	margin-top: 3px;
+}
+.TitleHeadDT{ 
+color: #4A0A4D;
+font-size: 35px;
+line-height: 1.1;
+}
+.divTitle {
+	display:flex;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.divDefineDT { 
+	margin-top: 5%;
+	margin-left: -80px;
+	margin-right: -50px;
+	padding: inherit;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	background: #282436;
+	background-image: url("assets/media/Graphics and Images/Introduction - Defining Disruptive Tech/defining DT.png");
+	background-size: cover;
+	color: #DEDEDE;
+}
+
+.DefineDTText {
+	width: 54%;
+	height: auto;
+	padding-right: -100px;
+	word-wrap: break-word;
+}
+
+.divExDT {
+	margin-left: -80px;
+	margin-right: -50px;
+	padding: inherit;
+	padding-bottom: 30%;
+	padding-left: 40px;
+	background-image: url("assets/media/Graphics and Images/Introduction - Defining Disruptive Tech/Examples DT.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ExDTText {
+	width: 70%;
+	height: auto;
+	padding-right: -100px;
+	word-wrap: break-word;
+}
+.divImpactDT { 
+	margin-left: -80px;
+	margin-right: -50px;
+	padding: inherit;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	background: #282436;
+	background-size: cover;
+	color: #DEDEDE;
+}
+.divLandscapeDT1 { 
+	display:flex;
+	margin-top: -1%;
+}
+
+.LandSCDTLeft1 {
+	width:40vw;
+    height: 50px;
+	float: left;
+	margin-left: -40px;
+	width: 100%;
+	height: auto;
+}
+.LandSCDTRight1 {
+	width: 100%;
+    height: auto;
+	float: right;
+	margin-left: 3%;
+	margin-right: 5%;
+	margin-top: 7.0%;
+	text-align: right;
+}
+
+.divLandscapeDT2 { 
+	display:flex;
+	margin-top: -5%;
+	margin-bottom: 3%;
+}
+
+.LandSCDTLeft2 {
+	width: 54%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+}
+
+.LandSCDTRight2 {
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-left: 7%;
+	margin-top: -3%;
+	margin-right: -84%;
+}
+
+.divLandscapeDT3 { 
+	margin-left: -80px;
+	margin-right: -50px;
+	padding: inherit;
+	padding-top: 4%;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	background: #282436;
+	background-size: cover;
+	color: #DEDEDE;
+}
+.divStats {
+	display:flex;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+.StatsDTRight {
+	width: 100%;
+    height: auto;
+	float: right;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.StatsDTLeft {
+	width: 100%;
+	float: left;
+	margin-left: -10px;
+	height: auto;
+	font-size: 28px;
+}
+
+#statul {
+  margin: 1em;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* Styles for screens with a minimum width of 600px */
+    .menupanel {
+        max-width: 250px;
+    }
+
+    .content {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Styles for screens with a minimum width of 900px */
+    .menupanel {
+        max-width: 300px;
+    }
+
+    .content {
+        max-width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .menupanel {
+        max-width: 400px;
+    }
+
+    .content {
+        max-width: 80%;
+    }
+}
